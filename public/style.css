@@ -79,17 +79,132 @@ input {
     min-width: 120px;
     font-family: 'Courier Prime', monospace;
 }
+input[type=color] {
+    height: 35px;
+    min-width: 35px;
+    max-width: 35px;
+}
 textarea {
     font-size: 1.1em;
     background-color: transparent;
     border: 1px solid;
     border-radius: 5px;
     height: 200px;
-    width: calc(100vw / 5);
+    width: 435px;
     max-width: 500px;
     min-width: 120px;
     font-family: 'Courier Prime', monospace;
 }
+.imageStyles {
+    display: flex;
+    margin: 0 auto;
+    width: 200px;
+    max-width: 500px;
+    min-width: 120px;
+}
+.paperPicker {
+    left: 4%;
+    margin-top: 1em;
+}
+.textPicker {
+    flex: 1;
+    margin-top: 1em;
+    align-items: left;
+    justify-content: left;
+
+}
+.fontPicker {
+    flex: 1;
+    margin-top: 1em;
+    align-items: left;
+    justify-content: left;
+
+}
+.sizePicker {
+    flex: 1;
+    margin-top: 1em;
+    align-items: left;
+}
+.text-edit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.form{
+    width: 500px;
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+    align-items: center;
+
+    width: 500px;
+    max-width: 500px;
+    min-width: 120px;
+}
+.left  {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+.left > label {
+    align-items: left;
+    justify-content: left;
+    
+}
+.right > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+.right {
+    align-items: left;
+    justify-content: left;
+}
+#Amatic {
+    font-family: 'Amatic SC', cursive;
+}
+#Borel {
+    font-family: 'Borel', cursive;
+}
+#Caveat {
+    font-family: 'Caveat', cursive;
+}
+#CherryBomb {
+    font-family: 'Cherry Bomb One', cursive;
+}
+#Cinzel {
+    font-family: 'Cinzel', serif;
+}
+#Courier {
+    font-family: 'Courier Prime', monospace;
+}
+#DM {
+    font-family: 'DM Serif Display', serif;
+}
+#Dai {
+    font-family: 'Dai Banna SIL', cursive;
+}
+#Eczar {
+    font-family: 'Eczar', serif;
+}
+#Edu {
+    font-family: 'Edu SA Beginner' cursive;
+}
+#Handjet {
+    font-family: 'Handjet', cursive;
+}
+#Indie {
+    font-family: 'Indie Flower', cursive;
+}
+
 section {
     margin: 1em 0;
+}
+a {
+    text-decoration: none;
+    color: #333;
 }

@@ -20,14 +20,56 @@
     </section>
     <section class="text-edit">
         <form class='form' action="">
-            <label for="title">Title:</label>
-            <input type="text" id="title" name="title" placeholder="The Tired Moon"><br><br>
-            <label for="name">Author:</label>
-            <input type="text" id="name" name="name" placeholder="L. R. Johansson"><br><br>
-            <label for="text">Text:</label>
-            <textarea name="text" id="" cols="30" rows="10" placeholder="Once upon a time...">
-            </textarea><br><br>
-            <input type="submit" value="Submit">
+            <div class="left">
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" placeholder="The Tired Moon"><br><br>
+                <label for="name">Author:</label>
+                <input type="text" id="name" name="name" placeholder="L. R. Johansson"><br><br>
+                <label for="text">Text:</label>
+                <textarea name="text" id="body" cols="30" rows="10" placeholder="Once upon a time..."></textarea><br><br>
+            </div>
+            <div class="right">
+                <div class="imageStyles">
+                    <div class="paperPicker">
+                        <label for="bgColor">Paper Color:</label>
+                        <input type="color" id="bgColor" name="bgColor" value="#D9CD82"><br><br>
+                    </div>
+                    <div class="textPicker">
+                        <label for="textColor">Text Color:</label>
+                        <input type="color" id="textColor" name="textColor" value="#141B42"><br><br>
+                    </div>
+                    <div class="fontPicker">
+                        <label for="fontPicker">Font:</label>
+                        <select name="fontPicker" id="fontPicker">
+                            <option value="Amatic SC" id="Amatic">Amatic SC</option>
+                            <option value="Borel" id="Borel">Borel</option>
+                            <option value="Caveat" id="Caveat">Caveat</option>
+                            <option value="CherryBomb" id="CherryBomb">Cherry Bomb One</option>
+                            <option value="Cinzel" id="Cinzel">Cinzel</option>
+                            <option value="Courier" id="Courier" selected>Courier Prime</option>
+                            <option value="DM" id="DM">DM Serif Display</option>
+                            <option value="Eczar" id="Eczar">Eczar</option>
+                            <option value="Edu" id="Edu">Edu SA Beginner</option>
+                            <option value="Handjet" id="Handjet">Handjet</option>
+                            <option value="Indieflower" id="Indieflower">Indie Flower</option>
+                        </select>
+                    </div>
+                    <div class="sizePicker">
+                        <label for="sizePicker">Size:</label>
+                        <select name="sizePicker" id="sizePicker">
+                            <option value="12">12</option>
+                            <option value="14">14</option>
+                            <option value="16" selected>16</option>
+                            <option value="18">18</option>
+                            <option value="20">20</option>
+                            <option value="22">22</option>
+                            <option value="24">24</option>
+                            <option value="26">26</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            
         </form>
     </section>
     <section class="preview" id="preview">
